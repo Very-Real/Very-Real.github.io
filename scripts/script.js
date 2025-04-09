@@ -1,10 +1,14 @@
-const websiteLink = document.getElementById("link");
+const websiteLink = document.getElementById("links");
 
-
+let a = true;
 websiteLink.addEventListener("mouseover", () => {
-    alert("here");
-    if((start.getSeconds() + 5) % 60 === new Date().getSeconds())
+    if(a === true)
     {
-        alert("You did the right thing!!!!");
+        alert("Wait look at the url in the corner.");
+        a = false;
     }
-});
+    else
+    {
+        
+    }
+    });
