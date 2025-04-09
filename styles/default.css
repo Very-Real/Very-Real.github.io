@@ -23,16 +23,44 @@ p
     margin-bottom: 0;
 }
 
+h3
+{
+    margin-top: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #0090C1;
+}
+
+a:hover
+{
+    color: #046E8F;
+}
+
+section
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding: 3px 3px 3px 3px;
+    border: #3E363F 3px solid;
+}
+
 @media(min-width: 1200px)
 {
     body
     {
-        width: 1176px;
+        width: 960px;
         margin-left: auto;
         margin-right: auto;
     }
     p
     {
         width: 936px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
