@@ -1,6 +1,7 @@
 const websiteLink = document.getElementById("link");
 
-websiteLink.addEventListener("hover", (start = new Date()) => {
+
+websiteLink.addEventListener("mouseover", () => {
     alert("here");
     if((start.getSeconds() + 5) % 60 === new Date().getSeconds())
     {
